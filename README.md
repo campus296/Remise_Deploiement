@@ -3,6 +3,7 @@
 
 ## Table des matières
 
+- [IMPORTANT](#important-instrucation-pour-le-prof)
 - [Présentation](#1-présentation-du-projet)
 - [Architecture](#2-architecture)
 - [Prérquis](#3-prérequis)
@@ -10,6 +11,16 @@
 - [Publication](#5-publication-dune-nouvelle-version)
 - [Tests](#6-tests)
 - [Remise](#7-remise)
+
+## IMPORTANT Instrucation pour le prof
+1. Se connecter à ton partage SMB depuis son PC.
+2. Installer GestionNotes 1.0 dans C:\GestionNotes-Installation.
+3. Installer Updater dans C:\GestionNotes-Updater.
+4. Vérifier que version.json annonce la version 1.1.
+5. Lancer GestionNotes et accepter la mise à jour.
+6. Modifier le manifeste sur ta VM pour annoncer la version 2.0, à condition d'avoir les droits d'écriture.
+7. Relancer GestionNotes et vérifier la deuxième mise à jour.
+Information de connection à la VM : USER: .\Administrateur IP: 10.77.64.44 Partage: C:\GestionNotes-Depot donc \\10.77.64.44\GestionNotes-Depot
 
 ## 1. Présentation du projet
 Ce laboratoire consiste à développer un mécanisme de mise à jour automatique pour GestionNotes, une application WPF en C# (.NET 10), sans utiliser ClickOnce ni MSIX.
